@@ -1,0 +1,16 @@
+/* Wireframing */
+
+*:not(body):not(html) {
+  box-sizing: border-box;
+  border: 1px dashed grey;
+}
+
+#header {
+  height: 400px;
+}
+
+.cupcake-img, .cupcake-name {
+  height: 250px;
+}
+
+/* End Wireframing */
