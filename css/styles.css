@@ -1,12 +1,24 @@
 /* Wireframing */
 
+/* peach: #f8b195
+pink: #f67280
+lilac: #c06c84
+purple: #6c5b7b
+blue: #355c7d*/
+
 *:not(body):not(html) {
   box-sizing: border-box;
-  border: 1px dashed grey;
+  /*border: 1px dashed grey;*/
 }
 
-#header {
+/*#header {
+  background-image: url("img/maltCupcake.jpg")!important;
+  background-size: cover;
   height: 400px;
+}*/
+
+#header img {
+
 }
 
 .cupcake-img, .cupcake-name {
@@ -16,6 +28,67 @@
 
 /* End Wireframing */
 
+.cupcake-img2 {
+  position: relative;
+  overflow: hidden;
+  max-height: 350px;
+}
 
+.cupcake-name1, .cupcake-name2, .cupcake-name3 {
+  background-color: #355c7d;
+  padding: 25px;
+  color: #fff;
+}
+
+.cupcake-name1 {
+  height: 363px;
+}
+
+.cupcake-name2 {
+  height: 350px;
+}
+
+.cupcake-name3 {
+  height: 345px;
+}
+
+.cupcake-name1 h4, .cupcake-name2 h4, .cupcake-name3 h4 {
+  color: #fff;
+}
+
+html, body {
+  background-color: #f67280!important;
+}
+
+body {
+  height: 100%;
+  color: #355c7d;
+}
+
+.navbar .top-bar-section a {
+  height: 38px;
+  margin-top: 0;
+  background-color: #c06c84;
+}
+
+.navbar .top-bar {
+  padding: 0;
+  background-color: #6c5b7b;
+}
+
+.our-row {
+  padding: 10px 0;
+}
+
+/* Color */
+.navbar .top-bar-section li a, .title-area .our-brand {
+  background-color: #6c5b7b!important;
+  color: #f8b195!important;
+}
+
+.our-brand {
+  background-color: #6c5b7b!important;
+  color: #f8b195!important;
+}
 
 /* Media Queries */
